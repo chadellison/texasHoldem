@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 import BackgroundImage from './components/BackgroundImage'
+import LoginButton from './components/LoginButton'
+import SignUpButton from './components/SignUpButton'
 
 class App extends Component {
   render() {
@@ -10,6 +13,8 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
+          <LoginButton />
+          <SignUpButton />
         </div>
         <BackgroundImage />
         <p className="App-intro">
